@@ -80,8 +80,8 @@ function draw() {
         console.log("boy touched the sword")
         
         boy.addAnimation("SahilRunning",endImg);
-        boy.x=200;
-        boy.y=300;
+        boy.x=width/2;
+        boy.y=height/2;
         boy.scale=0.6;
         
         cashG.destroyEach();
